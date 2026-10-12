@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso de Privacidad - Chiapas Sin Baches</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            color: #333; 
+            max-width: 820px; 
+            margin: 0 auto; 
+            padding: 24px; 
+            background-color: #fcfcfc;
+        }
+        .container {
+            background: #ffffff;
+            padding: 36px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border: 1px solid #eaeaea;
+        }
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border-bottom: 3px solid #8F1434;
+            padding-bottom: 20px;
+            margin-bottom: 24px;
+        }
+        .header-brand img {
+            max-height: 80px;
+            max-width: 140px;
+            object-fit: contain;
+        }
+        .header-text h1 {
+            color: #8F1434;
+            margin: 0;
+            font-size: 24px;
+        }
+        .header-text .subtitle {
+            color: #555;
+            font-size: 14px;
+            margin-top: 5px;
+            font-weight: 500;
+        }
+        h2 { 
+            color: #2C3E50; 
+            margin-top: 28px; 
+            font-size: 18px; 
+            border-bottom: 1px solid #eee; 
+            padding-bottom: 6px; 
+        }
+        p, li { font-size: 15px; }
+        ul { padding-left: 20px; }
+        .highlight-box { 
+            background: #fdf2f4; 
+            border-left: 4px solid #8F1434; 
+            padding: 14px 18px; 
+            margin: 20px 0; 
+            border-radius: 4px; 
+        }
+        footer { 
+            margin-top: 40px; 
+            padding-top: 16px; 
+            border-top: 1px solid #ddd; 
+            font-size: 13px; 
+            color: #777; 
+            text-align: center; 
+        }
+        .btn-pdf {
+            display: inline-block;
+            background: #8F1434;
+            color: #fff !important;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header-brand">
+            <!-- Logotipo Institucional -->
+            <img src="logo.png" alt="Logotipo Institucional Comisión Estatal de Caminos" onerror="this.style.display='none'">
+            <div class="header-text">
+                <h1>Aviso de Privacidad</h1>
+                <div class="subtitle">Comisión Estatal de Caminos | Gobierno del Estado de Chiapas<br>Aplicación Móvil: <strong>Chiapas Sin Baches</strong></div>
+            </div>
+        </header>
+
+        <p>La <strong>Comisión Estatal de Caminos del Estado de Chiapas</strong>, con domicilio en Tuxtla Gutiérrez, Chiapas, México, a través de su Unidad de Informática, es la entidad responsable del uso, protección y tratamiento de los datos personales recabados a través de la aplicación móvil ciudadana <strong>Chiapas Sin Baches</strong>.</p>
+
+        <div class="highlight-box">
+            <strong>Propósito del Sistema:</strong> La aplicación es una herramienta de participación ciudadana para el reporte, registro georreferenciado, atención y canalización de baches y desperfectos en la infraestructura carretera y vial del Estado de Chiapas.
+        </div>
+
+        <h2>1. Datos Personales Recabados</h2>
+        <p>Para la correcta prestación del servicio, la aplicación utiliza los siguientes permisos y datos:</p>
+        <ul>
+            <li><strong>Ubicación Geográfica en Tiempo Real (GPS):</strong> Exclusivamente para registrar con precisión las coordenadas donde se ubica la incidencia vial reportada.</li>
+            <li><strong>Cámara y Galería de Fotos:</strong> Únicamente para capturar y adjuntar la evidencia fotográfica del bache o desperfecto reportado.</li>
+            <li><strong>Datos de Autenticación (Opcional):</strong> Si el ciudadano decide identificarse (vía Apple ID o Google), se asocia su cuenta para permitirle dar seguimiento directo al estatus de sus reportes.</li>
+        </ul>
+
+        <h2>2. Uso y Protección de Datos</h2>
+        <p>Los datos recabados son tratados de manera estrictamente confidencial. <strong>No son comercializados, cedidos ni transferidos a terceros</strong> para fines mercadológicos o publicitarios. Se utilizan única y exclusivamente para las labores operativas de bacheo y mantenimiento vial de la institución.</p>
+
+        <h2>3. Eliminación de Cuenta y Derechos ARCO</h2>
+        <p>Los ciudadanos pueden ejercer sus derechos de acceso, rectificación, cancelación u oposición, así como solicitar la eliminación total de su cuenta y datos personales directamente dentro de la aplicación móvil en: <em>Perfil &gt; Eliminar Cuenta</em>, o mediante solicitud dirigida a la Unidad de Informática.</p>
+
+        <h2>4. Documento Oficial</h2>
+        <p>Para consultar el documento original emitido por la institución:</p>
+        <p><a class="btn-pdf" href="http://aviso.caminos.gob.mx/siso/uploads/AVISO_CSB.pdf" target="_blank" rel="noopener">📄 Ver Aviso Oficial en PDF</a></p>
+
+        <footer>
+            &copy; Comisión Estatal de Caminos - Gobierno del Estado de Chiapas<br>
+            Tuxtla Gutiérrez, Chiapas, México.
+        </footer>
+    </div>
+</body>
+</html>
